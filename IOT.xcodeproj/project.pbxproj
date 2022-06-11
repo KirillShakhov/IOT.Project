@@ -27,6 +27,8 @@
 		ED69430428550453007F4157 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED69430228550453007F4157 /* MainCollectionViewCell.swift */; };
 		ED69430528550453007F4157 /* MainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED69430328550453007F4157 /* MainCollectionViewCell.xib */; };
 		ED6943072855457D007F4157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6943062855457D007F4157 /* Assets.xcassets */; };
+		EDC0C8AD28554F9E0063DD6E /* PlantCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0C8AB28554F9E0063DD6E /* PlantCardViewController.swift */; };
+		EDC0C8B0285558310063DD6E /* PlantCard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC0C8AF285558310063DD6E /* PlantCard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		ED69430228550453007F4157 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		ED69430328550453007F4157 /* MainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainCollectionViewCell.xib; sourceTree = "<group>"; };
 		ED6943062855457D007F4157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDC0C8AB28554F9E0063DD6E /* PlantCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCardViewController.swift; sourceTree = "<group>"; };
+		EDC0C8AF285558310063DD6E /* PlantCard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlantCard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 				ED69430228550453007F4157 /* MainCollectionViewCell.swift */,
 				ED69430328550453007F4157 /* MainCollectionViewCell.xib */,
 				ED6943062855457D007F4157 /* Assets.xcassets */,
+				EDC0C8AB28554F9E0063DD6E /* PlantCardViewController.swift */,
+				EDC0C8AF285558310063DD6E /* PlantCard.storyboard */,
 			);
 			path = IOT;
 			sourceTree = "<group>";
@@ -279,6 +285,7 @@
 				ED6942C72854F813007F4157 /* Main.storyboard in Resources */,
 				ED6942FE2854F9CB007F4157 /* Auth.storyboard in Resources */,
 				ED6943072855457D007F4157 /* Assets.xcassets in Resources */,
+				EDC0C8B0285558310063DD6E /* PlantCard.storyboard in Resources */,
 				ED69430528550453007F4157 /* MainCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +317,7 @@
 				ED6942F12854F90B007F4157 /* HeaderCollectionViewCell.swift in Sources */,
 				ED6943012854F9CB007F4157 /* RegisterViewController.swift in Sources */,
 				ED6942C02854F813007F4157 /* AppDelegate.swift in Sources */,
+				EDC0C8AD28554F9E0063DD6E /* PlantCardViewController.swift in Sources */,
 				ED6942C22854F813007F4157 /* SceneDelegate.swift in Sources */,
 				ED6943002854F9CB007F4157 /* AuthController.swift in Sources */,
 				ED6942FB2854F9CB007F4157 /* PresentationController.swift in Sources */,

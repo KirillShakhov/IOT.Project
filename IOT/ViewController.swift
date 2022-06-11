@@ -54,6 +54,7 @@ extension ViewController: UICollectionViewDelegate{
         }
         else {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MainCollectionViewCell", for: indexPath) as! MainCollectionViewCell
+            cell.main_vc = self
             return cell
         }
     }
