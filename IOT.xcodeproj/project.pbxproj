@@ -11,11 +11,22 @@
 		ED6942C22854F813007F4157 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6942C12854F813007F4157 /* SceneDelegate.swift */; };
 		ED6942C42854F813007F4157 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6942C32854F813007F4157 /* ViewController.swift */; };
 		ED6942C72854F813007F4157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6942C52854F813007F4157 /* Main.storyboard */; };
-		ED6942C92854F814007F4157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6942C82854F814007F4157 /* Assets.xcassets */; };
 		ED6942CC2854F814007F4157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6942CA2854F814007F4157 /* LaunchScreen.storyboard */; };
 		ED6942D72854F815007F4157 /* IOTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6942D62854F815007F4157 /* IOTTests.swift */; };
 		ED6942E12854F815007F4157 /* IOTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6942E02854F815007F4157 /* IOTUITests.swift */; };
 		ED6942E32854F815007F4157 /* IOTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6942E22854F815007F4157 /* IOTUITestsLaunchTests.swift */; };
+		ED6942F12854F90B007F4157 /* HeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6942EF2854F90B007F4157 /* HeaderCollectionViewCell.swift */; };
+		ED6942F22854F90B007F4157 /* HeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED6942F02854F90B007F4157 /* HeaderCollectionViewCell.xib */; };
+		ED6942FB2854F9CB007F4157 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6942F42854F9CB007F4157 /* PresentationController.swift */; };
+		ED6942FC2854F9CB007F4157 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED6942F52854F9CB007F4157 /* LoginView.xib */; };
+		ED6942FD2854F9CB007F4157 /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED6942F62854F9CB007F4157 /* RegisterView.xib */; };
+		ED6942FE2854F9CB007F4157 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6942F72854F9CB007F4157 /* Auth.storyboard */; };
+		ED6942FF2854F9CB007F4157 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6942F82854F9CB007F4157 /* LoginViewController.swift */; };
+		ED6943002854F9CB007F4157 /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6942F92854F9CB007F4157 /* AuthController.swift */; };
+		ED6943012854F9CB007F4157 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6942FA2854F9CB007F4157 /* RegisterViewController.swift */; };
+		ED69430428550453007F4157 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED69430228550453007F4157 /* MainCollectionViewCell.swift */; };
+		ED69430528550453007F4157 /* MainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED69430328550453007F4157 /* MainCollectionViewCell.xib */; };
+		ED6943072855457D007F4157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6943062855457D007F4157 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +52,6 @@
 		ED6942C12854F813007F4157 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ED6942C32854F813007F4157 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED6942C62854F813007F4157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ED6942C82854F814007F4157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED6942CB2854F814007F4157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED6942CD2854F814007F4157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED6942D22854F815007F4157 /* IOTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +59,18 @@
 		ED6942DC2854F815007F4157 /* IOTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6942E02854F815007F4157 /* IOTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOTUITests.swift; sourceTree = "<group>"; };
 		ED6942E22854F815007F4157 /* IOTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED6942EF2854F90B007F4157 /* HeaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED6942F02854F90B007F4157 /* HeaderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCollectionViewCell.xib; sourceTree = "<group>"; };
+		ED6942F42854F9CB007F4157 /* PresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		ED6942F52854F9CB007F4157 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		ED6942F62854F9CB007F4157 /* RegisterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterView.xib; sourceTree = "<group>"; };
+		ED6942F72854F9CB007F4157 /* Auth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		ED6942F82854F9CB007F4157 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ED6942F92854F9CB007F4157 /* AuthController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
+		ED6942FA2854F9CB007F4157 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		ED69430228550453007F4157 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED69430328550453007F4157 /* MainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainCollectionViewCell.xib; sourceTree = "<group>"; };
+		ED6943062855457D007F4157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +121,18 @@
 		ED6942BE2854F813007F4157 /* IOT */ = {
 			isa = PBXGroup;
 			children = (
+				ED6942F32854F9CB007F4157 /* auth */,
 				ED6942BF2854F813007F4157 /* AppDelegate.swift */,
 				ED6942C12854F813007F4157 /* SceneDelegate.swift */,
 				ED6942C32854F813007F4157 /* ViewController.swift */,
 				ED6942C52854F813007F4157 /* Main.storyboard */,
-				ED6942C82854F814007F4157 /* Assets.xcassets */,
 				ED6942CA2854F814007F4157 /* LaunchScreen.storyboard */,
 				ED6942CD2854F814007F4157 /* Info.plist */,
+				ED6942EF2854F90B007F4157 /* HeaderCollectionViewCell.swift */,
+				ED6942F02854F90B007F4157 /* HeaderCollectionViewCell.xib */,
+				ED69430228550453007F4157 /* MainCollectionViewCell.swift */,
+				ED69430328550453007F4157 /* MainCollectionViewCell.xib */,
+				ED6943062855457D007F4157 /* Assets.xcassets */,
 			);
 			path = IOT;
 			sourceTree = "<group>";
@@ -125,6 +152,20 @@
 				ED6942E22854F815007F4157 /* IOTUITestsLaunchTests.swift */,
 			);
 			path = IOTUITests;
+			sourceTree = "<group>";
+		};
+		ED6942F32854F9CB007F4157 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				ED6942F42854F9CB007F4157 /* PresentationController.swift */,
+				ED6942F52854F9CB007F4157 /* LoginView.xib */,
+				ED6942F62854F9CB007F4157 /* RegisterView.xib */,
+				ED6942F72854F9CB007F4157 /* Auth.storyboard */,
+				ED6942F82854F9CB007F4157 /* LoginViewController.swift */,
+				ED6942F92854F9CB007F4157 /* AuthController.swift */,
+				ED6942FA2854F9CB007F4157 /* RegisterViewController.swift */,
+			);
+			path = auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +273,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED6942CC2854F814007F4157 /* LaunchScreen.storyboard in Resources */,
-				ED6942C92854F814007F4157 /* Assets.xcassets in Resources */,
+				ED6942FD2854F9CB007F4157 /* RegisterView.xib in Resources */,
+				ED6942F22854F90B007F4157 /* HeaderCollectionViewCell.xib in Resources */,
+				ED6942FC2854F9CB007F4157 /* LoginView.xib in Resources */,
 				ED6942C72854F813007F4157 /* Main.storyboard in Resources */,
+				ED6942FE2854F9CB007F4157 /* Auth.storyboard in Resources */,
+				ED6943072855457D007F4157 /* Assets.xcassets in Resources */,
+				ED69430528550453007F4157 /* MainCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +304,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6942FF2854F9CB007F4157 /* LoginViewController.swift in Sources */,
+				ED69430428550453007F4157 /* MainCollectionViewCell.swift in Sources */,
 				ED6942C42854F813007F4157 /* ViewController.swift in Sources */,
+				ED6942F12854F90B007F4157 /* HeaderCollectionViewCell.swift in Sources */,
+				ED6943012854F9CB007F4157 /* RegisterViewController.swift in Sources */,
 				ED6942C02854F813007F4157 /* AppDelegate.swift in Sources */,
 				ED6942C22854F813007F4157 /* SceneDelegate.swift in Sources */,
+				ED6943002854F9CB007F4157 /* AuthController.swift in Sources */,
+				ED6942FB2854F9CB007F4157 /* PresentationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
