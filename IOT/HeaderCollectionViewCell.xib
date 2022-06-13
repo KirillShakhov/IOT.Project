@@ -17,6 +17,20 @@
                 <rect key="frame" x="0.0" y="0.0" width="233" height="87"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
+                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SFH-CT-5AS">
+                        <rect key="frame" x="0.0" y="0.0" width="233" height="87"/>
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="3v1-x4-fDH">
+                            <rect key="frame" x="0.0" y="0.0" width="233" height="87"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </view>
+                        <blurEffect style="extraLight"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </visualEffectView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LoW-3b-kL6">
                         <rect key="frame" x="0.0" y="0.0" width="233" height="87"/>
                         <subviews>
@@ -41,7 +55,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59760451158940397" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="qQz-Cd-c9Q" secondAttribute="trailing" constant="10" id="Dzr-bb-jxO"/>
                             <constraint firstAttribute="bottom" secondItem="qQz-Cd-c9Q" secondAttribute="bottom" constant="10" id="PPS-Iz-BN2"/>
@@ -59,10 +73,14 @@
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
+                <constraint firstAttribute="bottom" secondItem="SFH-CT-5AS" secondAttribute="bottom" id="0io-SD-IWS"/>
+                <constraint firstAttribute="trailing" secondItem="SFH-CT-5AS" secondAttribute="trailing" id="HVE-ae-ud3"/>
                 <constraint firstItem="LoW-3b-kL6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="PeW-LL-jOo"/>
                 <constraint firstAttribute="bottom" secondItem="LoW-3b-kL6" secondAttribute="bottom" id="Tiw-Ou-Ufk"/>
                 <constraint firstAttribute="trailing" secondItem="LoW-3b-kL6" secondAttribute="trailing" id="Xrv-XT-k4w"/>
                 <constraint firstItem="LoW-3b-kL6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cdW-cW-WLj"/>
+                <constraint firstItem="SFH-CT-5AS" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="dsP-w3-Hhi"/>
+                <constraint firstItem="SFH-CT-5AS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="oSa-on-T7e"/>
             </constraints>
             <size key="customSize" width="233" height="87"/>
             <point key="canvasLocation" x="239.85507246376812" y="122.20982142857142"/>

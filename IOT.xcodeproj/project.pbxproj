@@ -29,6 +29,7 @@
 		ED6943072855457D007F4157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6943062855457D007F4157 /* Assets.xcassets */; };
 		EDC0C8AD28554F9E0063DD6E /* PlantCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0C8AB28554F9E0063DD6E /* PlantCardViewController.swift */; };
 		EDC0C8B0285558310063DD6E /* PlantCard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC0C8AF285558310063DD6E /* PlantCard.storyboard */; };
+		EDC0C8B2285659C70063DD6E /* LoadingAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0C8B1285659C70063DD6E /* LoadingAuthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		ED6943062855457D007F4157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDC0C8AB28554F9E0063DD6E /* PlantCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCardViewController.swift; sourceTree = "<group>"; };
 		EDC0C8AF285558310063DD6E /* PlantCard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlantCard.storyboard; sourceTree = "<group>"; };
+		EDC0C8B1285659C70063DD6E /* LoadingAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingAuthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				ED6942F82854F9CB007F4157 /* LoginViewController.swift */,
 				ED6942F92854F9CB007F4157 /* AuthController.swift */,
 				ED6942FA2854F9CB007F4157 /* RegisterViewController.swift */,
+				EDC0C8B1285659C70063DD6E /* LoadingAuthViewController.swift */,
 			);
 			path = auth;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				ED6943012854F9CB007F4157 /* RegisterViewController.swift in Sources */,
 				ED6942C02854F813007F4157 /* AppDelegate.swift in Sources */,
 				EDC0C8AD28554F9E0063DD6E /* PlantCardViewController.swift in Sources */,
+				EDC0C8B2285659C70063DD6E /* LoadingAuthViewController.swift in Sources */,
 				ED6942C22854F813007F4157 /* SceneDelegate.swift in Sources */,
 				ED6943002854F9CB007F4157 /* AuthController.swift in Sources */,
 				ED6942FB2854F9CB007F4157 /* PresentationController.swift in Sources */,

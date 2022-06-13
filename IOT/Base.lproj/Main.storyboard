@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IOT" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="IOT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,6 +71,38 @@
                                 </collectionViewFlowLayout>
                                 <cells/>
                             </collectionView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hti-ou-Wuv">
+                                <rect key="frame" x="354" y="66" width="40" height="40"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="QGR-OX-Glj">
+                                    <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hv4-i5-LPL">
+                                            <rect key="frame" x="1" y="0.0" width="39" height="36"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="hv4-i5-LPL" firstAttribute="leading" secondItem="QGR-OX-Glj" secondAttribute="leading" constant="1" id="8fy-5K-gHn"/>
+                                        <constraint firstAttribute="bottom" secondItem="hv4-i5-LPL" secondAttribute="bottom" constant="4" id="Cia-Lo-Zi4"/>
+                                        <constraint firstAttribute="trailing" secondItem="hv4-i5-LPL" secondAttribute="trailing" id="dbM-d9-19m"/>
+                                        <constraint firstItem="hv4-i5-LPL" firstAttribute="top" secondItem="QGR-OX-Glj" secondAttribute="top" id="sHh-hG-OTz"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Y9t-8W-kDg"/>
+                                    <constraint firstAttribute="height" constant="40" id="hIq-OO-PDl"/>
+                                </constraints>
+                                <blurEffect style="regular"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </visualEffectView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -86,11 +118,13 @@
                             <constraint firstItem="9P1-EA-Qrp" firstAttribute="top" secondItem="jus-Hz-Bll" secondAttribute="bottom" constant="10" id="MSp-GP-uWC"/>
                             <constraint firstItem="iSg-yg-VtL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="MpI-5Y-Bm6"/>
                             <constraint firstItem="9P1-EA-Qrp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="N4S-RZ-7SF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hti-ou-Wuv" secondAttribute="trailing" constant="20" id="OKe-tv-Vy4"/>
                             <constraint firstAttribute="bottom" secondItem="iSg-yg-VtL" secondAttribute="bottom" id="Qem-pO-6vL"/>
                             <constraint firstItem="3xF-fB-UG3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Wik-oA-68A"/>
                             <constraint firstItem="jus-Hz-Bll" firstAttribute="top" secondItem="eip-bd-ACJ" secondAttribute="bottom" constant="10" id="XnB-W2-xmV"/>
                             <constraint firstItem="jus-Hz-Bll" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bTf-5Z-zCi"/>
                             <constraint firstItem="eip-bd-ACJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="k0X-Wi-frd"/>
+                            <constraint firstItem="hti-ou-Wuv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="mES-o2-1Tl"/>
                             <constraint firstItem="eip-bd-ACJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mIQ-a9-ctx"/>
                             <constraint firstItem="5TS-cD-ZXc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sdm-MC-Bfx"/>
                             <constraint firstItem="9P1-EA-Qrp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wRr-ZI-PTG"/>

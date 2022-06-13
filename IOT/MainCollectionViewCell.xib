@@ -17,6 +17,20 @@
                 <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
+                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yYB-EU-YGW">
+                        <rect key="frame" x="20" y="0.0" width="374" height="80"/>
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="tuE-Tk-n26">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="80"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </view>
+                        <blurEffect style="extraLight"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </visualEffectView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AqM-wa-1WV">
                         <rect key="frame" x="20" y="0.0" width="374" height="80"/>
                         <subviews>
@@ -40,7 +54,7 @@
                                         <fragment content="Подробнее">
                                             <attributes>
                                                 <color key="NSColor" red="0.49594356705422299" green="0.78632402061212125" blue="0.50103688949280234" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="12" name="Helvetica"/>
+                                                <font key="NSFont" size="12" name="Helvetica-Bold"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -83,7 +97,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="0.80272144039735094" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="7eN-q7-Koi" firstAttribute="leading" secondItem="SY4-JX-K4N" secondAttribute="trailing" id="0GB-3x-4td"/>
                             <constraint firstItem="SY4-JX-K4N" firstAttribute="leading" secondItem="AqM-wa-1WV" secondAttribute="leading" constant="10" id="9Ck-rP-p8J"/>
@@ -109,10 +123,14 @@
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
+                <constraint firstAttribute="trailing" secondItem="yYB-EU-YGW" secondAttribute="trailing" constant="20" id="3X6-7r-iif"/>
                 <constraint firstItem="AqM-wa-1WV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="EPt-2q-Ow8"/>
                 <constraint firstAttribute="trailing" secondItem="AqM-wa-1WV" secondAttribute="trailing" constant="20" id="KEs-Ly-zLd"/>
+                <constraint firstItem="yYB-EU-YGW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="VOa-l1-anx"/>
                 <constraint firstItem="AqM-wa-1WV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="gBf-Ue-cYI"/>
+                <constraint firstItem="yYB-EU-YGW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="pvQ-UT-PAa"/>
                 <constraint firstAttribute="bottom" secondItem="AqM-wa-1WV" secondAttribute="bottom" id="tIL-Pa-O2z"/>
+                <constraint firstAttribute="bottom" secondItem="yYB-EU-YGW" secondAttribute="bottom" id="yXN-me-5GK"/>
             </constraints>
             <size key="customSize" width="405" height="106"/>
             <point key="canvasLocation" x="36.231884057971016" y="127.90178571428571"/>
